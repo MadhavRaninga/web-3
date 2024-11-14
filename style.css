@@ -1,0 +1,727 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/banner/banner.png);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.nav{
+    width: 100%;
+    height: 130px;
+    padding-left: 5%;
+    display: flex;
+    
+}
+.nav .navleft{
+    width: 33%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navleft-top{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .navleft .navleft-top a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+#home{
+    border-bottom: 2px solid white;
+}
+.nav .navleft .navleft-top i{
+    padding-top: 6px;
+}
+.nav .navleft .navleft-top a:hover{
+    border-bottom: 2px solid white;
+    transition: 0s;
+    transform: scale(1.05);
+ 
+}
+.navcenter{
+    width: 130px;
+    height: 110px;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/logo.png);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 23px;
+
+
+}
+.navright{
+    width: 25%;
+    height: 120px;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 10px;
+    
+
+}
+.navbottom{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.navbottom img{
+    width: 25px;
+    height: 25px;
+    color: rgb(168,167,160);
+}
+.navbottom img:hover{
+    background-color: rgb(168,167,160);
+    cursor: pointer;
+    transition: 0.5s;
+} 
+.navright button{
+    width: 150px;
+    height: 43px;
+    margin-left: 30px;
+    background-color: rgb(0,157,255);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.navright button:hover{
+    background-color: white;
+    border: 1px solid rgb(0,157,255);
+    cursor: pointer;
+    color: rgb(0,157,255);
+    transition: 0.6s;
+}
+.hero{
+    width: 90%;
+    height: 160px;
+    margin-top: 60px;
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+.hero i{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    color: white;
+    background-color: rgba(60, 65, 70, 0.425);
+    border-radius: 50%;
+    padding-bottom: 8px;
+    padding-left: 3px;
+    margin-top: 5%;
+}
+#icon{
+    margin-left: 19%;
+}
+.hero i:hover{
+    background-color: rgb(0,157,255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero h1{
+     margin-left: 17%;
+     color: white;
+     font-size: 90px;
+     font-weight: 400;
+     text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-weight: 300;
+    word-spacing: 1px;
+}
+.main{
+    width: 100%;
+    height: 130vh;
+    padding-inline: 8%;
+    padding-top: 13%;
+    display: flex;
+    
+}
+.mainleft{
+     width: 45%;
+     height: 500px;
+     padding-right: 7%;
+}
+.mainleft #About{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(41,159,255);
+    position: relative;
+    display: inline-block;
+}
+.mainleft h1{
+    font-size: 45px;
+    font-weight: 350;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+.mainleft p{
+    color: rgb(107, 107, 107);
+    font-family: none;
+    font-weight: 200;
+    margin-top: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.mainleft h3{
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+    margin-top: 50px;
+   
+    position: relative;
+}
+.mainleft h3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(107, 107, 107);
+    bottom: 0;
+    width: 100px;
+    top: 5;
+
+}
+.mainright{
+    width: 55%;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainright-top{
+    width: 45%;
+    height: 450px;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/about/about_1.png);
+    background-position: center;
+    background-size: cover;
+}
+.mainright-bottom{
+    width: 45%;
+    height: 450px;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/about/about_2.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+}
+.containor{
+    width: 100%;
+    height: 140vh;
+    padding-inline: 8%;
+    
+
+}
+.containor p{
+    text-align: center;
+    color: rgb(42, 156, 255);
+}
+.containor h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 400;
+    color: rgb(31,31,31);
+}
+.card{
+    width: 100%;
+    height: 100vh;
+  
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.shape-1{
+    width: 31.9%;
+    height: 100%;
+ 
+}
+.shapetop{
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+    transition: 0.6s;
+}
+.shapetop img{
+    width: 100%;
+   
+}
+.shapetop img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.shapebottom{
+    width: 100%;
+    height: 45%;
+   
+}
+.shapebottom h2{
+    font-weight: 350;
+    padding-top: 25px;
+    line-height: 30px;
+}
+.shapebottom ul{
+    padding-left: 23px;
+    padding-top: 15px;
+  
+}
+.shapebottom ul li{
+    padding-top: 10px;
+    color: rgb(77,77,77);
+
+}
+.shapebottom button{
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    border: 1px solid rgb(42, 156, 255);
+    font-size: 15px;
+    color: rgb(54, 54, 54);
+    background-color: transparent;
+    
+} 
+.shapebottom button:hover{
+    background-color: rgb(42, 156, 255);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.video{
+    width: 100%;
+    height: 100vh;
+
+}
+.other{
+    width: 100%;
+    height: 130vh;
+    padding-inline: 8%;
+    display: flex;
+    padding-top: 10%;
+}
+.otherleft{
+    width: 49%;
+    height: 90vh;
+    display: flex;
+   
+    justify-content: space-between;
+}
+.left-top{
+    width: 49%;
+    height: 450px;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/about/1.png);
+    background-position: center;
+    background-size: cover;
+}
+.left-bottom{
+    width: 49%;
+    height: 450px;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/about/2.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+} 
+.otherright{
+    width: 50%;
+    height: 90vh;
+    padding-left: 8.5%;
+    
+
+}
+.otherright h3{
+    color: rgb(42, 156, 255);
+    font-weight: 400;
+    font-size: 15px;
+} 
+.otherright h1{
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 350;
+    color: rgb(31,31,31);
+    letter-spacing: 1px;
+}
+.otherright p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(145,145,145);  
+    letter-spacing: 0.5px;
+}
+.otherright h2{
+   margin-top: 50px; 
+   font-size: 18px;
+   font-weight: 400;
+   color: rgb(145,145,145);
+   position: relative;
+}
+
+.otherright h2:hover{
+    color: rgb(42, 156, 255);
+ 
+}
+.otherright h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(145,145,145);
+    bottom: 0;
+    width: 100px;
+    top: 10;
+}
+.other2{
+    width: 100%;
+    height: 160vh;
+}
+.other2-top{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.other2-top h3{
+    font-size: 15px;
+    font-weight: 350;
+    color: blue;
+    
+}
+.other2-top h1{
+    font-size: 45px;
+    font-weight: 350;
+    margin-top: 15px;
+}
+.other2-bottom{
+    width: 100%;
+    height: 130vh;
+
+}
+.contenr{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    overflow: hidden;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/rooms/1.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: inset 142px 200px 300px 113px rgba(65, 63, 63, 0.281);
+    -moz-box-shadow: inset 142px 200px 300px 113px rgba(63, 63, 63, 0.288);
+    box-shadow: inset 142px 200px 300px 113px rgba(63, 62, 62, 0.267);
+    overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+
+}
+.box1:hover{
+    transform: scale(0.96);
+    transition: 0.5s;
+}
+.box1 p{
+    margin-top: 40%;
+    color: white;
+    margin-left: 60px;
+}
+.box1 h1{
+    margin-left: 60px;
+    color: white;
+    font-weight: 400;
+}
+.box1 h3{
+    position: absolute;
+    color: white;
+    left: 80%;
+    top: 75%;
+    font-weight: 350;
+    
+}
+.box1 h3:hover{ 
+    opacity: 1;
+    color: rgb(42, 156, 255);
+    cursor: pointer;
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/rooms/2.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: inset 142px 200px 300px 113px rgba(65, 63, 63, 0.281);
+    -moz-box-shadow: inset 142px 200px 300px 113px rgba(63, 63, 63, 0.288);
+    box-shadow: inset 142px 200px 300px 113px rgba(63, 62, 62, 0.267);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.box2:hover{
+    transform: scale(0.96);
+    transition: 0.5s;
+}
+.box2 p{
+    margin-top: 40%;
+    color: white;
+    margin-left: 60px;
+}
+.box2 h1{
+    margin-left: 60px;
+    color: white;
+    font-weight: 400;
+}
+.box2 h3{
+    position: absolute;
+    color: white;
+    left: 80%;
+    top: 75%;
+    font-weight: 350;
+    
+}
+.box2 h3:hover{ 
+
+    color: rgb(42, 156, 255);
+    cursor: pointer;
+}
+.contenr2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+ 
+}
+.box3{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/rooms/3.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: inset 142px 200px 300px 113px rgba(65, 63, 63, 0.281);
+    -moz-box-shadow: inset 142px 200px 300px 113px rgba(63, 63, 63, 0.288);
+    box-shadow: inset 142px 200px 300px 113px rgba(63, 62, 62, 0.267);
+    transition: 0.5s;
+}
+.box3:hover{
+    transform: scale(0.96);
+    transition: 0.5s;
+}
+.box3 p{
+    margin-top: 40%;
+    color: white;
+    margin-left: 60px;
+}
+.box3 h1{
+    margin-left: 60px;
+    color: white;
+    font-weight: 400;
+}
+.box3 h3{
+    position: absolute;
+    color: white;
+    left: 80%;
+    top: 75%;
+    font-weight: 350;
+    
+}
+.box3 h3:hover{ 
+    opacity: 1;
+    color: rgb(42, 156, 255);
+    cursor: pointer;
+}
+.box4{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/rooms/4.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: inset 142px 200px 300px 113px rgba(65, 63, 63, 0.281);
+    -moz-box-shadow: inset 142px 200px 300px 113px rgba(63, 63, 63, 0.288);
+    box-shadow: inset 142px 200px 300px 113px rgba(63, 62, 62, 0.267);
+    transition: 0.5s;
+}    
+.box4:hover{
+    transform: scale(0.96);
+    transition: 0.5s;
+}
+.box4 p{
+    margin-top: 40%;
+    color: white;
+    margin-left: 60px;
+}
+.box4 h1{
+    margin-left: 60px;
+    color: white;
+    font-weight: 400;
+}
+.box4 h3{
+    position: absolute;
+    color: white;
+    left: 80%;
+    top: 75%;
+    font-weight: 350;
+    
+}
+.box4 h3:hover{ 
+    opacity: 1;
+    color: rgb(42, 156, 255);
+    cursor: pointer;
+}
+.number{
+    width: 100%;
+    height: 300px;
+    padding-inline: 15%;
+    padding-block: 6%;
+}
+.border{
+    width: 100%;
+    height: 130px;
+    border: 1.5px solid rgb(186,186,186);
+    display: flex;
+    align-items: center;
+}
+.border h1{
+     font-weight: 350;
+     margin-left: 40px;
+     color: rgb(31,31,31);
+}
+.border-right{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(0,157,255);
+    margin-left: 200px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}   
+.border-right:hover{
+    background-color: transparent;
+    color: rgb(0,157,255);
+    border: 1px solid rgb(0,157,255);
+}
+.other3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.image1{
+    width: 20%;
+    height: inherit;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/instragram/1.png);
+    background-position: center;
+    background-size: cover;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.img::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    -webkit-box-shadow: inset 142px 200px 300px 113px rgba(65, 63, 63, 0.281);
+    -moz-box-shadow: inset 142px 200px 300px 113px rgba(63, 63, 63, 0.288);
+    box-shadow: inset 142px 200px 300px 113px rgba(63, 62, 62, 0.267);
+    transition: 0.5s;
+
+}
+.img:hover::before{
+    width: 100%;
+   
+}
+.img img{
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+.img:hover img{
+    opacity: 1;
+}
+
+
+
+
+.image2{
+    width: 20%;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/instragram/2.png);
+    background-position: center;
+    background-size: cover;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img:hover{
+    -webkit-box-shadow: inset 142px 200px 300px 113px rgba(65, 63, 63, 0.281);
+    -moz-box-shadow: inset 142px 200px 300px 113px rgba(63, 63, 63, 0.288);
+    box-shadow: inset 142px 200px 300px 113px rgba(63, 62, 62, 0.267);
+opacity: 1;
+}
+.img img{
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+.img img:hover{
+    opacity: 1;
+}
+.image3{
+    width: 20%;
+    height: inherit;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/instragram/3.png);
+    background-position: center;
+    background-size: cover;
+}
+.image4{
+    width: 20%;
+    height: inherit;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/instragram/4.png);
+    background-position: center;
+    background-size: cover;
+}
+.image5{
+    width: 20%;
+    height: inherit;
+    background-image: url(https://preview.colorlib.com/theme/montana/img/instragram/5.png);
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0,0,0);
+}
